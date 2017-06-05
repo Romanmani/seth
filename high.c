@@ -5,7 +5,7 @@ int i,j,a[10],n;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
-scanf("%d",a[i]);
+scanf("%d",&a[i]);
 }
 for(i=0;i<n;i++)
 {
@@ -20,5 +20,5 @@ a[j]=t;
 }
 }
 printf("%d",a[0]);
-printf("%d",a[n-]);
+printf("%d",a[n-1]);
 }
