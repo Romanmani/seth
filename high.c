@@ -9,7 +9,7 @@ scanf("%d",&a[i]);
 }
 for(i=0;i<n;i++)
 {
-for(j=i+1;j<n;i++)
+for(j=i+1;j<n;j++)
 {
 if(a[i]>a[j])
 {
@@ -19,6 +19,6 @@ a[j]=t;
 }
 }
 }
-printf("%d",a[0]);
-printf("%d",a[n-1]);
+printf("lowest no %d\n",a[0]);
+printf("highest no %d\n",a[n-1]);
 }
