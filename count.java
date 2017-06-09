@@ -6,10 +6,11 @@ public static void main(String args[])
 Scanner s=new Scanner(System.in);
 int a=s.nextInt();
 int count=0;
-for(int i=1;i<a;i++)
+while(a>0)
 {
 count++;
-System.out.println(i);
+  a=a/10;
 }
+System.out.println(count);
 }
 }
