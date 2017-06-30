@@ -13,7 +13,7 @@ p=a%10;
 o=(o*10)+p;
 a=a/10;
 }
-if(a==o)
+if(t==o)
 {
 System.out.println("Is palindrome");
 }
